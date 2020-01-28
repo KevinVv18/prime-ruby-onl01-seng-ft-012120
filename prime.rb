@@ -1,7 +1,7 @@
 def prime?(n)
 fn= 2
-if (fn..n-1).none? {|divisor|n % divisor == 0 }
-  true
+if (fn..n-1).none? do |divisor|
+    n % divisor
 else 
   false
   end
